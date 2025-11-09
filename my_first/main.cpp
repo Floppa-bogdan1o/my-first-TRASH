@@ -10,7 +10,7 @@ void GimmeSomeTrash(string SayPlease) {
 		cout << "yooooo\narbuz\ndesat\nдесять\n" << sorokdwa << endl;
 	}
 	else {
-		cout << "No please, no trash, my friend ;)";
+		cout << "No please, no trash, my friend ;)" << endl;
 	}
 }
 
@@ -25,7 +25,8 @@ int main() {
 	cout << "введи число в переменную B:";
 	cin >> b; cout << endl;
 	cout << " A:" << a << " B:" << b << endl;
-	//strandard watermelon
+	// BREAKING NEWS!!!!!! THIS IS THE END OF WATERMELONS?????? POTATOES STARTS A WAR!!!!!
+	// 🍉 <-- this is watermelon							this is potato army -->🔫🥔🔫🥔🔫🥔
 
 	return 0;
 }
