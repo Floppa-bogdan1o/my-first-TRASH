@@ -6,7 +6,7 @@ int num = 42, a, b;
 auto& sorokdwa = num;
 
 void GimmeSomeTrash(string SayPlease) {
-	if (SayPlease == "Please" or "please") {
+	if (SayPlease == "Please" or SayPlease == "please") {
 		cout << "yooooo\narbuz\ndesat\nдесять\n" << sorokdwa << endl;
 	}
 	else {
