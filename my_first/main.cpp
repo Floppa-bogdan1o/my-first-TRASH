@@ -1,18 +1,31 @@
 #include <iostream>
 
+using namespace std;
+
+int num = 42, a, b;
+auto& sorokdwa = num;
+
+void GimmeSomeTrash(string SayPlease) {
+	if (SayPlease == "Please" or "please") {
+		cout << "yooooo\narbuz\ndesat\nдесять\n" << sorokdwa << endl;
+	}
+	else {
+		cout << "No please, no trash, my friend ;)";
+	}
+}
+
 int main() {
 	setlocale(LC_ALL, "RU");
-	int num = 42, a, b;
-	auto& sorokdwa = num;
+	string UserPlease;
+	cout << "say please for some trash:"; cin >> UserPlease; cout << endl;
 
-	std::cout << "yooooo" << std::endl;
-	std::cout << "arbuz" << std::endl;
-	std::cout << "desat" << std::endl;
-	std::cout << "десять" << std::endl;
-	std::cout << sorokdwa << std::endl;
-	std::cout << "введи число:";
-	std::cin >> a; std::cout << std::endl;
-	std::cout << "ты ввел:"<< a << std::endl;
-	//watermelon
+	GimmeSomeTrash(UserPlease);
+	cout << "введи число в переменную A:";
+	cin >> a; cout << endl;
+	cout << "введи число в переменную B:";
+	cin >> b; cout << endl;
+	cout << " A:" << a << " B:" << b << endl;
+	//strandard watermelon
+
 	return 0;
 }
