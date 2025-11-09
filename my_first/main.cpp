@@ -16,13 +16,16 @@ void GimmeSomeTrash(string SayPlease) {
 void GiMmETheANswErNOOOW(string arbuz, float first, float second) {
 	float answer;
 	if (arbuz == "+") {
-		answer = { first + second };
+		answer =  first + second ;
 	} else if (arbuz == "-") {
-		answer = { first - second };
+		answer =  first - second ;
 	} else if (arbuz == "*") {
-		answer = { first * second };
-	} else if (arbuz == "/") {
-		answer = { first / second };
+		answer =  first * second ;
+	} else if (arbuz == "/" && second != 0) {
+		answer =  first / second ;
+	} else if (arbuz == "/" && second == 0) {
+		cout << "Division by zero DETECTED! Watermelon meltdown imminent!" << endl;
+		answer = 0;
 	} else {
 		cout << "whaaat" << endl;
 		answer = 42.4242;
@@ -45,8 +48,9 @@ int main() {
 	cout << "what do you want to do with them? (+|-|*|/):"; cin >> operatatatator; cout << endl;
 	GiMmETheANswErNOOOW(operatatatator, a,b);
 
-	// BREAKING NEWS!!!!!! THIS IS THE END OF POTATOS??????WATERMELON HAS A BOMB!!!!!!
-	// 🍉😈💣💣💣💣 <-- this is watermelon					this is potato army -->🔫🥔🔫🥔🔫🥔
+	// BREAKING NEWS!!!!!! THIS IS THE END OF WORLD?????? THE BATTLE IS APPROCHING!!!!
+	// Watermelon called up the population for military service
+	// 🍉😈💣🍉😈💣🍉😈💣🍉😂💣 <-- this is watermelon army 🔫😨🥔🔫😭🥔🔫😥🥔<-- this is potato army
 
 	return 0;
 }
