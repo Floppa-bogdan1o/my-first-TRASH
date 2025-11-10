@@ -51,7 +51,7 @@ int main() {
 
 	// BREAKING NEWS!!!!!! THIS IS THE END OF WORLD?????? THE BATTLE IS APPROCHING!!!!
 	// Watermelon called up the population for military service
-	// 🍉😈💣🍉😈💣🍉😈💣🍉😂💣 <-- this is watermelon army 🔫😨🥔🔫😭🥔🔫😥🥔<-- this is potato army
+	// 🍉💣🍉💣 <-- this is watermelon army 🔫🥔🔫🥔🔫🥔<-- this is potato army
 
 	return 0;
 }
