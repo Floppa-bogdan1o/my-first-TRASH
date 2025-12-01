@@ -5,10 +5,11 @@ Random code snippets from my journey to becoming a programmer.
 # What do we have?
 - 1 My first CMD project in CPP
 - 2 Calorie calculator based on QT (camelator 1k kg🐪)
+- 3 just a calculator (bulbalator..... why not?)
 
 ## Why this repo exists
 - To dump my chaotic learning attempts
-- To track progress (and cringe later 😅)
+- To track progress (or regress)
 - To share silly code with the world
 
 ## Is this my exact code?
