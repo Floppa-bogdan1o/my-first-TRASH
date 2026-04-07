@@ -6,6 +6,7 @@ Random code snippets from my journey to becoming a programmer.
 - 1 My first CMD project in CPP
 - 2 Calorie calculator based on QT (camelator 1k kg🐪)
 - 3 just a calculator (bulbalator..... why not?)
+- 4 universal excuse-maker (ОТМАЗЫВАТЕЛЬ3000)
 
 ## Why this repo exists
 - To dump my chaotic learning attempts
